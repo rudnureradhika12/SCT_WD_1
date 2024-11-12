@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="content">
+            <h2>Welcome to Our Website</h2>
+            <p>Discover our amazing services and get to know us better.</p>
+            <img src="images/abts.png" alt="Welcome Image" class="section-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best service to our customers. Our team is passionate and committed to delivering top-quality solutions.</p>
+            <img src="images/abbtss.jpg" alt="About Us Image" class="section-image">
+            <p style="color: yellow;">Our values are rooted in customer satisfaction, innovation, and continuous improvement. Join us on this journey as we strive to make a difference.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="content">
+            <h2>Our Services</h2>
+            <p>Explore a range of services tailored to meet your needs.</p>
+            <div class="service-list">
+                <div class="service-item">
+                    <img src="images/consulting.webp" alt="Consulting">
+                    <h3>Consulting</h3> <br>
+                    <p>Our expert consultants provide insights and strategies to help grow your business.</p>
+                </div>
+                
+                <div class="service-item">
+                    <img src="images/support.avif" alt="Customer Support">
+                    <h3>Customer Support</h3> <br>
+                    <p>Reliable support to help you with any questions or issues you may have.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/projectMang.jpg" alt="Project Management">
+                    <h3>Project Management</h3><br>
+                    <p>Efficient project management solutions that ensure timely and successful project completion.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/solutions.png" alt="Tech Solutions">
+                    <h3>Technology Solutions</h3> <br>
+                    <p>Innovative tech solutions that bring your ideas to life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you. Please fill out the form below with your details and feedback.</p>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
